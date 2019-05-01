@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(175, 82%, 42%);
+    color: rgba(0, 0, 0, 0.8);
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    
+    padding: 2vmin;
+}
+
+#messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 4vmin 0;
+}
+
+input {
+    border: 0;
+    padding: 2vmin;
+}
+
+#message {
+    margin-top: 2vmin;
+    padding: 4vmin 3vmin;
+}
+
+header input {
+    background: none;
+}
+
+header {
+    background: white;
+    margin: -2vmin;
+    padding: 2vmin;
+    
+    position: relative;
+    z-index: 10;
+}
+
+li {
+    list-style-type: none;
+    margin: 1.5vmin 0;
+}
+
+
+
+
+
+

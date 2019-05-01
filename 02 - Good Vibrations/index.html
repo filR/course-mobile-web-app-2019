@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Vibrate</title>
+</head>
+
+<body>
+    <button type="button">vibrate</button>
+    <script>
+        document.querySelector('button').onclick = function () {
+            // navigator.vibrate(200);
+            navigator.vibrate([100, 200, 200, 200, 500]);
+        }
+    </script>
+</body>
+
+</html>
