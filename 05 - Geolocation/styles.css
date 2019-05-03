@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#map {
+    flex: 1;
+    display: flex;
+}
+
+#map > span {
+    margin: auto;
+    font-size: 10vmin;
+    color: hsla(0, 0%, 0%, 0.4);
+}
+
+.info {
+    text-align: center;
+    padding: 2vmin;
+    font-size: 5vmin;
+    background-color: hsl(0, 0%, 10%);
+    color: hsl(0, 0%, 80%);
+}
+
+.info span {
+    color: white;
+}
