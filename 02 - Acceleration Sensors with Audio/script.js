@@ -4,13 +4,13 @@ let audio = new Audio('song.mp3');
 // let audio = new Audio('https://random-files-phil.s3.amazonaws.com/song.mp3');
 
 // play music
-document.querySelector('h1').onclick = function () {
+document.querySelector('h1').addEventListener('click', function () {
     audio.play();
     audio.volume = 0;
 
     // hide "tap me"
     this.style.display = 'none';
-};
+});
 
 // on acceleratin sensor data
 function handleMotionEvent(event) {
