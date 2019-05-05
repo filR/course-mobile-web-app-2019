@@ -1,0 +1,41 @@
+
+## takeaway
+The most common salary negotiation mistake? Not negotiating at all.
+
+## content - straw man quotes
+* I enjoy my job, I don't work for the money (aka I don't need to negotiate)
+	- work is better when you don't need the money
+    - would you work if you didn't get any money?
+
+* If I negotiate, I may not get the job
+	- change your mindset, they are professionals
+		- it's not about making friends, this is a business negotiation
+		- they've done this hundreds of times
+		- they may think less of you for NOT negotiating
+	- from "i am at their mercy"
+        -> to "they want you", "you offer them value"
+
+* I don't deserve to earn so much
+	1. you are better than you think
+		- many people can't fizzbuzz < and they are alreadys employed as devs!
+		- don't be modest (quality here is comparable to silicon valley)
+	2. they have invested effort in finding you
+        - e.g. amazon, pricey to find the right person
+		- see things from their perspective (they want you)
+
+* I don't know how to negotiate
+	- 1. research and prepare
+        - know your numbers
+        - practise
+	- 2. negotiate delayed
+        - at home, via email
+        - "let me think about it", "i need to ask my significant other"
+	- 3. don't answer: how much do you want to earn (or how much you are earning now)
+		- "what is your prev. salary" is employer-speak for "please give me a reason to pay you less"
+	- other: be willing to walk away; get equity (and other perks)
+
+* I am not allowed to talk about my salary
+	- story "mit der gehaltserhöhung würdest du mehr verdienen als alle anderen kollegen."
+	- my salary history (see below)
+        - They will pay me what is fair
+	        story about applying to crate and bandzoogle (£40 vs £60k - €60k vs €84k)
