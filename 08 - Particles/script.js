@@ -1,10 +1,11 @@
 (function () {
   'use strict';
 
-  const NUM_PARTICLES = 1000;
-  const PARTICLE_SIZE = 2;
+  const NUM_PARTICLES = 200;
+  const PARTICLE_SIZE = 4;
   const PARTICLE_HUE = 0;
   const ANIMATION_SPEED = 0.3;
+  const HIGH_DEF_MULTIPLIER = 2;
 
   let canvas;
   let ctx;
@@ -62,8 +63,8 @@
   // get canvas ready to draw
   function initCanvas() {
     canvas = document.querySelector('canvas');
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    canvas.width = window.innerWidth * HIGH_DEF_MULTIPLIER;
+    canvas.height = window.innerHeight * HIGH_DEF_MULTIPLIER;
     ctx = canvas.getContext('2d');
   }
 
