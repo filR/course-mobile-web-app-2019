@@ -7,7 +7,7 @@ document.body.addEventListener('click', function () {
     let oscillator = context.createOscillator();
 
     oscillator.type = 'sine'; // 'sine'|'square'|'triangle'|'sawtooth';
-    oscillator.frequency.value = 100;
+    oscillator.frequency.value = 200;
 
     // start immediately
     //oscillator.connect(context.destination);
@@ -23,10 +23,11 @@ document.body.addEventListener('click', function () {
     gain.connect(context.destination);
 
     // fade in volume
-    let now = context.currentTime;
-    gain.gain.setValueAtTime(0.001, now);
-    gain.gain.exponentialRampToValueAtTime(1, now + 1);
-    oscillator.start(now);
+    // let now = context.currentTime;
+    // gain.gain.setValueAtTime(0.001, now);
+    // gain.gain.exponentialRampToValueAtTime(1, now + 1);
+    // oscillator.start(now);
+    oscillator.start();
 
 
 
