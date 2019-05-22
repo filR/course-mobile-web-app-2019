@@ -1,0 +1,21 @@
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 2em;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    font-weight: normal;
+}
+
+h1 b {
+    color: black;
+}
+
+p {
+    text-align: right;
+}
+
+#author {
+    font-style: italic;
+}
